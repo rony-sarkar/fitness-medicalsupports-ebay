@@ -1,0 +1,1279 @@
+/*-----------------------------------------------------------------------------
+  Theme Name  : Actesso-Medical-Supports
+  Theme URL : http://stores.ebay.co.uk/Actesso-Medical-Supports
+  Description : Theme for Actesso-Medical-Supports. Designed By eSellerSolutions. All Rights Reserved.
+  Version   : CSS v-3.0
+  Tags    : eBay
+  Author    : ESS
+  Author URL  : http://www.esellersolutions.com
+  Created   : Oct 13 2016
+  License   : eSeller Solutions own this theme. Do Not Copy!
+-------------------------------------------------------------------------------*/
+
+/*
+-----------------------------------------------------------------------------------
+ESS Custom Font
+-----------------------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(../fonts/font.css);
+
+
+.essWrap,
+td#CentralArea,
+#LeftPanel {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    border: 0;
+}
+
+a,
+#topSearch *,
+#topcatz *,
+.slider *,
+.joinLinks a:before,
+.joinLinks a:after {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+/* Selection Color */
+::-moz-selection {
+    background: #eee;
+    color: #333;
+    text-shadow: none;
+}
+
+::selection {
+    background: #eee;
+    color: #333;
+    text-shadow: none;
+}
+
+/*Reset*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+}
+
+.essWrap ul {
+    margin: 0;
+    padding: 0;
+}
+
+.essWrap ul li {
+    list-style-type: none;
+}
+
+.essWrap a {
+    text-decoration: none;
+}
+
+.essWrap p {
+    margin: 0 0 10px;
+}
+
+.pageloader {
+    display: none !important;
+}
+
+.pagewidth {
+    color: #555;
+}
+
+.pagewidth a {
+    color: #333;
+}
+
+.pagewidth a:hover {
+    color: #3B4547;
+}
+
+
+/*
+-----------------------------------------------------------------------------------
+ESS eBay Layout fixed width
+-----------------------------------------------------------------------------------*/
+.essWrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix:after,
+.slider *:after,
+.slider *:after,
+.sf-menu:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.essWrap img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.pr {
+    position: relative;
+}
+
+.imgBox img {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: auto;
+    max-height: 90%;
+    max-width: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.essHeadWrap {
+    display: block !important;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Block Title
+-----------------------------------------------------------------------------------*/
+.block-title,
+td#CentralArea div.fpcc,
+#LeftPanel .v4title {
+    background: #29B8E3;
+    color: #fff;
+    font-size: 13px;
+    padding: 9px 12px !important;
+    line-height: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mdl-Box .block-title {
+    background: #29B8E3 !important;
+    color: #fff;
+    font-size: 13px;
+    padding: 9px 12px !important;
+    line-height: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.block-title * {
+    display: block;
+}
+
+#LeftPanel .v4title > * {
+    display: block;
+    color: #fff;
+}
+
+#LeftPanel .v4title h2 {
+    font-size: 13px;
+}
+
+.ess-colRight .block-title {
+    font-size: 12px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Side Promo Banners
+-----------------------------------------------------------------------------------*/
+.promo-widget {
+    text-align: center;
+}
+
+.promo-widget * {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.promo-widget > div + div {
+    margin-top: 15px;
+}
+
+.promo-widget a img {
+    display: block;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Sidebar
+-----------------------------------------------------------------------------------*/
+.ess-colLeft,
+#LeftPanel {
+    width: 200px !important;
+    overflow: hidden;
+}
+
+.lBox + .lBox,
+.rBox + .rBox {
+    margin-top: 15px;
+}
+
+.ess-colRight .col-inner {
+    width: 130px;
+}
+
+.lBox .pad,
+.rBox .pad {
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+}
+
+#LeftPanel .v4midBox {
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    padding: 0;
+}
+
+#LeftPanel .v4midBox ul {
+    margin: 0;
+    padding: 0;
+}
+
+#LeftPanel .v4midBox ul li {
+    font-size: 12px;
+    display: block;
+    color: #29B8E3;
+    font-weight: normal;
+    margin: 0;
+    padding: 8px 0;
+    padding-left: 18px;
+    text-transform: none;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#LeftPanel .v4midBox ul li:last-child {
+    border-bottom: 0;
+}
+
+#LeftPanel .v4midBox ul li a {
+    text-decoration: none;
+    color: #29B8E3;
+    font-weight: normal;
+}
+
+#LeftPanel .v4midBox ul li:hover {
+    background-color: #f4f4f4;
+}
+
+#LeftPanel .v4midBox ul li a:hover {}
+
+#LeftPanel .v4midBox ul li:before {
+    content: "";
+    background: url(../images/arw-catz-list.png) no-repeat;
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    margin-top: -4px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Left Feedback
+-----------------------------------------------------------------------------------*/
+#fdback .inr-pad {
+    height: 200px;
+    overflow: hidden;
+}
+
+#fdback p {
+    margin: 0;
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+#fdback a.mre {
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 26px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAYAAABfnvydAAAASElEQVQYlWNgYGBg+P//f/v///91GbCB////B/6HgFf////XwqWoixhFvVBFzylWNAFJkTpppiBJYjoWr08ISSIHFM7QxBnUAElcnpvbl5wIAAAAAElFTkSuQmCC') 94% center no-repeat #37474f;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#fdback a.mre:hover {
+    background-color: #46baa7;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Table Box
+-----------------------------------------------------------------------------------*/
+.sm-tableBox,
+.tableBox {
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+}
+
+/*.main { border: 1px solid #ccc; border-width: 1px 0 0 0; padding: 10px 0 0 0 }*/
+.tb-fixed {
+    table-layout: fixed;
+}
+
+.sm-table-cell,
+.sm-tableBox > *,
+.table-cell,
+.tableBox > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tableBox.vt > * {
+    vertical-align: top;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0 !important;
+}
+
+.show-mobile {
+    display: none !important;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS eBay Layout fixed width
+-----------------------------------------------------------------------------------*/
+.essWrap,
+table.tb_v4bc,
+.stBadge,
+#glbfooter,
+#gh,
+.gh-banner-active #gh,
+.pagecontainer > table:nth-of-type(2) tr:first-child > td > table:nth-child(2) {
+    max-width: 1200px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Header
+-----------------------------------------------------------------------------------*/
+#essHeader {
+    margin-bottom: 15px;
+}
+
+.header-top {
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 0;
+    background: #29B8E3;
+    text-transform: uppercase
+}
+
+.head-left {
+    float: left;
+    width: 600px
+}
+
+.head-left2 {
+    float: right;
+    width: auto;
+    margin-top: 40px
+}
+
+.cInfo {
+    font-size: 13px;
+    margin-top: 0;
+    float: left
+}
+
+.cInfo strong {
+    font-weight: normal;
+    display: block;
+    font-size: 30px;
+    color: #29B8E3;
+}
+
+.cInfo span {
+    display: block;
+    color: #585858;
+}
+
+.cInfo > * {
+    display: inline-block;
+    color: #77777;
+}
+
+.tagline {
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    color: #777777;
+    margin-left: 0 !important;
+    margin-top: 0px;
+    font-family: 'Calibri' !important;
+    float: left
+}
+
+.top-nav li {
+    display: inline-block;
+}
+
+.top-nav li a {
+    display: inline-block;
+    color: #fff;
+    padding: 0 6px;
+    text-transform: uppercase
+}
+
+.top-nav li a:hover {
+    color: #3B4547
+}
+
+.top-nav li:last-child {
+    border-right: 0;
+}
+
+.top-nav li:last-child a {
+    padding-right: 0;
+}
+
+.main-head {
+    position: relative;
+    padding: 20px 0 25px 0;
+    background: url(../images/header-bg.png) right top no-repeat;
+}
+
+.shoplogo {
+    display: inline-block;
+}
+
+.shoplogo img {
+    border: 0;
+}
+
+.head-right {
+    text-align: right;
+    float: right;
+    width: 400px;
+    margin: 0 15px
+}
+
+.main-head .tableBox > * > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-head .tableBox > * > * + * {
+    margin-left: 8px;
+}
+
+.main-head .db {
+    height: 12px;
+}
+
+.db {
+    display: block !important;
+}
+
+.quicktxt {
+    font-size: 12px
+}
+
+.joinLinks {
+    font-size: 12px;
+    text-align: right;
+}
+
+.joinLinks a {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 23px;
+    height: 20px;
+    font-size: 12px;
+    color: #888 !important;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.joinLinks a + a {
+    margin-left: 10px;
+}
+
+.joinLinks a:nth-child(1) {
+    background-image: url(../images/icon-join1.png);
+}
+
+.joinLinks a:nth-child(2) {
+    background-image: url(../images/icon-join2.png);
+}
+
+.joinLinks a:nth-child(3) {
+    background-image: url(../images/icon-join3.png);
+}
+
+.joinLinks a:nth-child(1):before {
+    content: "Feedback";
+}
+
+.joinLinks a:nth-child(2):before {
+    content: "Add to favourites";
+}
+
+.joinLinks a:nth-child(3):before {
+    content: "Join Mailing List";
+}
+
+.joinLinks a:before {
+    font-style: normal;
+    width: 140px;
+    border: 1px solid #37474f;
+    background-color: #fff;
+    color: #37474f;
+    font-size: 12px;
+    padding: 6px 15px;
+    border-radius: 2px;
+    bottom: 100%;
+    display: block;
+    margin-left: -70px;
+    margin-bottom: 10px;
+    pointer-events: none;
+    position: absolute;
+}
+
+.joinLinks a:after {
+    border-left: solid transparent 6px;
+    border-right: solid transparent 6px;
+    border-top: solid #37474f 6px;
+    top: -10px;
+    content: " ";
+    margin-left: -6px;
+    position: absolute;
+}
+
+.joinLinks a:before,
+.joinLinks a:after {
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.joinLinks a:hover:before,
+.joinLinks a:hover:after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+#topSearch {
+    width: 350px;
+    margin-top: 5px
+}
+
+#topSearch form {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+#topSearch table {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+#topSearch tr + tr {
+    display: none;
+}
+
+#topSearch table td {
+    padding: 0;
+}
+
+#topSearch input.v4sbox {
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 40px 0 10px;
+    border: 1px solid #ddd !important;
+    background-color: #fff;
+    font-size: 12px;
+    color: #999;
+    width: 100%;
+    float: left;
+}
+
+#topSearch input:focus {
+    color: #333;
+}
+
+#topSearch .g-hdn {
+    display: none;
+}
+
+#topSearch input[type="submit"] {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../svg/icon-search.svg) center center no-repeat;
+    font-size: 0;
+    cursor: pointer;
+    border-left: 1px solid #ddd
+}
+
+#topSearch input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+.InfoBox {
+    margin-top: 8px;
+}
+
+.InfoBox .pad {
+    padding: 10px;
+    background: #eee
+}
+
+.InfoBox .box {
+    text-align: left;
+}
+
+.InfoBox .box span {
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    color: #1b1b1b;
+    text-transform: uppercase
+}
+
+.InfoBox .box-txt-small {
+    text-align: left;
+    font-size: 13px;
+    color: #1b1b1b;
+    text-transform: capitalize;
+    margin: 0 !important
+}
+
+.InfoBox .infoicon1 {
+    background: url(../images/info-icon1.png) no-repeat scroll left top;
+    padding-left: 35px;
+    vertical-align: middle;
+    float: left
+}
+
+.InfoBox .infoicon2 {
+    background: url(../images/info-icon2.png) no-repeat scroll left top;
+    padding-left: 35px
+}
+
+.InfoBox .infoicon3 {
+    background: url(../images/info-icon3.png) no-repeat scroll left top;
+    padding-left: 35px
+}
+
+.InfoBox .infoicon4 {
+    background: url(../images/info-icon4.png) no-repeat scroll left top;
+    padding-left: 35px;
+    float: right
+}
+
+
+#adv-search {
+    margin: 15px 0
+}
+
+#adv-search .pad {
+    background: #fff;
+    padding: 0;
+}
+
+#adv-search select {
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    padding: 0 5px;
+    width: 31.3%;
+    height: 40px;
+    font-size: 14px;
+    margin-right: 0.7%;
+    margin-bottom: 0.7%;
+    float: left;
+    color: #585858;
+    line-height: 35px
+}
+
+#adv-search select:focus {
+    border-color: #62C8FF;
+}
+
+#adv-search select option {
+    padding: 0 5px;
+}
+
+#adv-search .btn-go {
+    background: #3B4547;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    border: 0 !important;
+    cursor: pointer;
+    font-size: 15px
+}
+
+#adv-search .btn-go:hover {
+    background: #0a95e0;
+}
+
+
+
+.ukseller {
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    background: url(../images/uksellerIcon.png) no-repeat scroll left center;
+    padding-left: 40px;
+    margin: 10px 0 0 0 !important;
+    clear: left;
+    margin-left: 20px
+}
+
+.main-menu {
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc
+}
+
+/* 1. Catz Menu
+   ----------------------------- */
+@media only screen and (min-width:801px) {
+    #topcatz > ul > li {
+        vertical-align: middle;
+        float: left;
+    }
+
+    #topcatz > ul > li:first-child {
+        border-left: 0;
+        background: none;
+    }
+
+    #topcatz > ul > li:last-child {
+        border-right: 0;
+    }
+
+    #topcatz .sf-menu label {
+        display: none;
+    }
+
+    #topcatz .sf-menu li {
+        position: relative;
+    }
+
+    #topcatz .sf-menu li a {
+        display: block;
+        color: #1f1f1f;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0 15px;
+        padding: 14px 10px;
+        text-transform: uppercase
+    }
+
+    #topcatz .sf-menu li.home a {
+        background: url(../images/icon-home.png) center center no-repeat;
+        text-indent: -99999px;
+        width: 36px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    #topcatz > ul > li:hover > a,
+    #topcatz > ul > li:focus > a {
+        background-color: #29B8E3 !important;
+        color: #fff;
+    }
+
+    #topcatz .sf-menu li > a:after {
+        content: "";
+        vertical-align: middle;
+        display: inline-block;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        margin-left: 5px;
+        margin-top: -3px;
+        opacity: .5
+    }
+
+    #topcatz .sf-menu li > a:only-child:after {
+        display: none;
+    }
+
+    #topcatz .sf-menu ul li > a:after {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        border-width: 5px 4px 0 4px;
+        margin-left: 4px;
+        margin-top: -2px;
+    }
+
+    /* Sub Menu */
+    #topcatz .sf-menu li:hover > ul,
+    #topcatz .sf-menu li:focus > ul {
+        display: block;
+    }
+
+    #topcatz .sf-menu ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 260px;
+        box-shadow: 4px 4px 0 0 rgba(35, 35, 35, 0.1);
+        z-index: 99;
+        border: 1px solid #3B4547;
+        border-top-width: 3px;
+    }
+
+    #topcatz .sf-menu ul ul {
+        top: 0;
+        left: 100%;
+        z-index: 999;
+    }
+
+    #topcatz .sf-menu ul li a {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        text-align: left;
+        font-weight: normal;
+        color: #333;
+        background-color: #fff;
+    }
+
+    #topcatz .sf-menu ul li:last-child > a {
+        border: 0;
+    }
+
+    #topcatz .sf-menu ul li:hover > a {
+        background: #3B4547;
+        color: #fff;
+    }
+
+    #topcatz .sf-menu li.mre ul {
+        left: auto;
+        right: 0;
+    }
+
+    #topcatz .sf-menu li.mre ul ul {
+        left: auto;
+        right: 100%;
+    }
+}
+
+/* 2. Mobile Menu
+ ----------------------------- */
+@media only screen and (max-width:800px) {
+    .main-menu .menu-toggle {
+        display: block;
+    }
+
+    .main-menu {
+        margin-bottom: 15px;
+        background: #29B8E3
+    }
+
+    #topcatz ul {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #topcatz [id^="sub"]:checked ~ ul {
+        max-height: 2500px;
+    }
+
+    #topcatz {
+        color: #fff;
+        text-align: left;
+        box-shadow: 4px 4px 0 0 rgba(35, 35, 35, 0.1);
+        font-weight: bold;
+    }
+
+    .menu-toggle {
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .menu-toggle .menutxt span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+
+    .menu-toggle .menu-icon {
+        width: 25px;
+        vertical-align: middle;
+        padding: 10px 15px;
+    }
+
+    .menu-toggle .menu-icon span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .menu-toggle .menu-icon i {
+        display: block;
+        background-color: #fff;
+        width: 25px;
+        height: 3px;
+        margin: 3px 0;
+        line-height: 0;
+        font-size: 0;
+        text-indent: -9999px;
+        white-space: nowrap;
+    }
+
+    #topcatz .sf-menu label {
+        cursor: pointer;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 22px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        color: #555;
+        text-align: center;
+        font-family: arial;
+        background: url(../svg/icon-plus.svg) center center no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    #topcatz .sf-menu label:hover,
+    #topcatz [id^="sub"]:checked + label {
+        background: url(../svg/icon-minus.svg) center center no-repeat;
+        background-color: rgba(0, 0, 0, 0.07);
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    #topcatz .sf-menu {
+        background: #fff;
+        position: relative;
+        border: 1px solid #ddd;
+        border-top: 0;
+        margin-top: -1px;
+    }
+
+    #topcatz .sf-menu li {
+        background: none;
+        position: relative;
+    }
+
+    #topcatz .sf-menu a {
+        cursor: pointer;
+        display: block;
+        font-size: 12px;
+        background-color: #f9f9f9;
+        border-top: 1px solid #eee;
+        padding: 10px 15px;
+        color: #555;
+        text-transform: uppercase;
+    }
+
+    #topcatz .sf-menu a:hover,
+    #topcatz [id^="sub"]:checked ~ a {
+        background-color: #3B4547;
+    }
+
+    #topcatz [id^="sub"]:checked ~ a {
+        font-weight: bold;
+    }
+
+    #topcatz .sf-menu ul li {
+        border: 0;
+    }
+
+    #topcatz .sf-menu ul a {
+        padding-left: 20px;
+        border-left: 3px solid #ddd;
+    }
+
+    #topcatz .sf-menu .mre > a:first-of-type {
+        display: none;
+    }
+
+    #topcatz .sf-menu .mre > ul {
+        max-height: none;
+    }
+
+    #topcatz .sf-menu .mre > ul > li > a {
+        padding-left: 15px;
+        border-left: 0;
+    }
+
+    #topcatz .sf-menu .mre ul ul ul {
+        display: none;
+    }
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Footer
+-----------------------------------------------------------------------------------*/
+#ess-foot {
+    margin: 15px 0;
+}
+
+.join {
+    color: #37474f;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.join .essWrap {
+    border: 1px dashed #ccc;
+    padding: 8px;
+}
+
+.join p {
+    font-style: italic;
+    margin: 0;
+}
+
+.join a.btn-theme {
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 15px;
+    vertical-align: middle;
+    background-color: #37474f;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap
+}
+
+.join a.btn-theme:hover {
+    background-color: #ff9800;
+}
+
+.foot-links {
+    padding: 25px 0;
+    border-top: 5px solid #29B8E3;
+}
+
+.foot-links .col {
+    position: relative;
+    vertical-align: top;
+}
+
+.foot-links .has-divider .col:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.foot-links .has-divider .col:last-child:after {
+    display: none;
+}
+
+.foot-links .col {
+    padding: 0 15px;
+}
+
+.foot-links .col:first-child {
+    padding-left: 0;
+}
+
+.foot-links .col:last-child {
+    text-align: right;
+    padding-right: 0;
+}
+
+.foot-links .col:last-child img {
+    margin-top: 3px;
+}
+
+.foot-links h6 {
+    margin: 0 0 8px;
+    color: #29B8E3;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left
+}
+
+.foot-links ul li {
+    color: #37474f;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.foot-links ul li a {
+    color: #37474f;
+}
+
+.foot-links ul li.adrs {
+    background: url(../images/icon-map.png) left 4px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+
+.foot-links ul li.num {
+    background: url(../images/icon-phone.png) left 0 no-repeat;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    line-height: 19px;
+}
+
+.foot-links ul li.email a {
+    background: url(../images/icon-email.png) left center no-repeat;
+    padding-left: 30px;
+    text-transform: none;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Copyright
+-----------------------------------------------------------------------------------*/
+.cpyright {
+    background: #e1e1e1;
+    font-size: 11px;
+    padding: 6px 8px;
+}
+
+.cpyright * {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.cpyright p {
+    margin: 0;
+}
+
+.dsgn span {
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.dsgn a {
+    line-height: 24px;
+    background: url(../images/icon-ess24x24.png) left center no-repeat;
+    padding-left: 48px;
+    display: inline-block;
+}
+
+.promo-col-left {
+    float: left;
+    width: 240px;
+    display: inline-block
+}
+
+.scroll-col-right {
+    float: right;
+    width: 940px
+}
+
+.ess-gallery {
+    padding: 15px;
+    background: #DBEFF9
+}

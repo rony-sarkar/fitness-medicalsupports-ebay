@@ -1,0 +1,164 @@
+@media only screen and (max-width:1024px) {
+    .essBody {
+        padding: 15px;
+    }
+
+    .img-holder input:checked ~ .lightbox .img-popup {
+        max-width: 80vw
+    }
+
+    .header-top {
+        padding: 5px 15px;
+    }
+
+    .foot-links {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .ess-colRight {
+        display: none;
+    }
+
+    .welcome-msg {
+        display: block !important;
+    }
+
+    .main .ess-col-main .col-inner {
+        margin-left: 0;
+    }
+
+    .itemTitle,
+    .itemTitle * {
+        text-align: center;
+    }
+
+    .ess-gallery .img-box,
+    .thumb {
+        width: 100% !important;
+    }
+
+    .essTabs label {
+        padding: 0 4px !important;
+    }
+
+    .main > * + * {
+        padding-left: 0 !important;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
+    .essTabs {
+        height: auto;
+    }
+
+    .tabBox {
+        padding: 0;
+        background: none;
+    }
+
+    .InfoBox {
+        display: none;
+    }
+
+    .main-head {
+        background: none;
+        padding: 0;
+    }
+
+    .head-left {
+        width: 100%;
+    }
+
+    .panel {
+        border: 1px solid #46baa7;
+        border-top: 0;
+        padding: 15px;
+        position: static;
+        width: auto;
+    }
+
+    .panel img {
+        float: none;
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    .scrollBox {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .img-holder input:checked ~ .lightbox .img-popup {
+        left: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        max-width: 100%;
+        max-height: 600px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .mdl-Box .pad {
+        position: relative;
+    }
+
+    .ess-gallery .img-box,
+    .thumb {
+        width: auto;
+        float: none;
+    }
+
+    .thumb {
+        margin-left: -7.5px;
+        margin-right: 7.5px;
+        padding-top: 7.5px;
+    }
+
+    .thumb label {
+        float: none;
+    }
+
+    .thumb label .box {
+        margin: 7.5px;
+    }
+
+    .img-holder input:checked ~ .lightbox .img-popup {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-width: 3px;
+    }
+}
+
+@media only screen and (max-width:640px) {}
+
+@media only screen and (max-width:480px) {
+    .img-holder input:checked ~ .lightbox .img-popup {
+        max-height: 320px;
+    }
+
+    .mdl-Box .fr {
+        margin: 0 0 10px;
+        float: none;
+        text-align: center;
+    }
+
+    .essBody {
+        background: none
+    }
+
+    .dec h4 {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:360px) {
+    .img-holder .imgBox {
+        height: 280px;
+    }
+}

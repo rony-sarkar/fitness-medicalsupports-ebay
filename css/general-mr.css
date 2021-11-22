@@ -1,0 +1,310 @@
+@media only screen and (max-width:1024px) {
+    .pagewidth {
+        padding: 15px;
+    }
+
+    .joinLinks a:before,
+    .joinLinks a:after {
+        display: none;
+    }
+
+    .joinLinks a:before,
+    .joinLinks a:after {
+        display: none;
+    }
+
+    .shoplogo {
+        float: left
+    }
+
+    .scroll-col-right {
+        width: 740px
+    }
+
+    #topcatz .sf-menu li a {
+        font-size: 13px;
+        padding: 14px 7px
+    }
+
+    .header-top {
+        padding: 8px
+    }
+
+    .head-left {
+        width: auto
+    }
+
+    .head-left2 {
+        margin-left: 20px
+    }
+
+    #adv-search select {
+        width: 31%
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .show-mobile {
+        display: block !important;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+
+    .ess-colLeft,
+    .ess-colRight,
+    .brand-scroll,
+    .ess-colLeft,
+    #LeftPanel {
+        display: none !important;
+    }
+
+    .main > * + * {
+        padding-left: 0;
+    }
+
+    .shoplogo {
+        padding: 0 !important;
+        text-align: center;
+        width: 100%;
+        margin-top: 15px
+    }
+
+    .head-left,
+    .head-right {
+        float: none;
+        text-align: center;
+        display: inline-block;
+        width: 100%
+    }
+
+    .tagline,
+    .ukseller,
+    .quicktxt {
+        display: none
+    }
+
+    .text-right {
+        text-align: center
+    }
+
+    #topSearch {
+        display: inline-block;
+        text-align: center;
+        margin: 0
+    }
+
+    #adv-search select {
+        width: 30.8%
+    }
+
+    .joinLinks {
+        text-align: center;
+        margin: 15px
+    }
+
+    .join {
+        font-size: 13px;
+    }
+
+    .cpyright {
+        margin-top: 15px;
+    }
+
+    .cpyright p {
+        margin: 5px 0;
+    }
+
+    .InfoBox {
+        text-align: center;
+        display: inline-block
+    }
+
+    .InfoBox .box {
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 5px
+    }
+
+    .InfoBox .box span {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .InfoBox .box-txt-small {
+        display: inline-block;
+        text-align: center;
+        margin: 0 !important
+    }
+
+    .InfoBox .infoicon1,
+    .InfoBox .infoicon2,
+    .InfoBox .infoicon3,
+    .InfoBox .infoicon4 {
+        float: none;
+        margin: 0 0 10px 30px
+    }
+
+    #adv-search .btn-go {
+        width: 8% font-size:12px;
+    }
+
+
+    .head-right {
+        margin: 0
+    }
+
+    .main-head {
+        background: #fff
+    }
+
+    .cInfo {
+        float: none
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .main-head {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .head-left,
+    .head-right {
+        display: block;
+    }
+
+    .top-nav li {
+        float: none !important;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .top-nav li {
+        font-size: 0;
+        display: inline-block;
+        float: none;
+        border: 0 !important;
+    }
+
+    .top-nav li a {
+        padding: 3px 6px !important;
+        margin: 3px;
+        border: 1px solid;
+        font-size: 11px;
+        float: none;
+    }
+
+    .InfoBox .box + .box {
+        margin-top: 6px;
+    }
+
+    .InfoBox .box + .box {
+        margin-top: 6px;
+    }
+
+    .tableBox {
+        display: block;
+        text-align: center;
+        table-layout: auto;
+    }
+
+    .tableBox > * {
+        display: block;
+        text-align: center;
+    }
+
+    .head-left,
+    .head-right {
+        text-align: center;
+    }
+
+    .joinLinks {
+        text-align: center;
+    }
+
+    .head-right {
+        margin-top: 15px;
+    }
+
+    .main-head .tableBox > * > * {
+        display: block;
+    }
+
+    .main-head .tableBox > * > * + * {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .main-head .db {
+        display: none !important;
+    }
+
+    #topSearch {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .promo-widget a img {
+        width: 100%;
+    }
+
+    .join p {
+        margin-bottom: 6px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .main-head .inline-block + .inline-block {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .thumb label .box {
+        height: 80px;
+    }
+
+    .thumb {
+        text-align: center;
+    }
+
+    #adv-search select {
+        width: 100% !important;
+        margin: 0.6%;
+        display: block !important
+    }
+
+    #adv-search .pad {
+        padding: 0.6%;
+    }
+
+    #adv-search .btn-go {
+        width: 40px;
+        margin: 0.6%;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (max-width:389px) {
+    .shoplogo img {
+        max-width: 300px !important;
+    }
+
+    .promo-widget a img {
+        display: inline-block;
+    }
+
+    .InfoBox .infoicon1,
+    .InfoBox .infoicon2,
+    .InfoBox .infoicon3,
+    .InfoBox .infoicon4 {
+        margin-left: 0 !important;
+    }
+
+}

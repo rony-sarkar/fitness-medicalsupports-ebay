@@ -1,0 +1,481 @@
+/*
+-----------------------------------------------------------------------------------
+Slider common styles
+-----------------------------------------------------------------------------------*/
+.slider {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.slider .pad {
+    position: relative;
+}
+
+.slider .slide-scroll {
+    overflow: hidden;
+}
+
+.slider:not(.col-1):not(.vScroll) .overflow {
+    overflow: hidden;
+    margin: 0 -7.4px
+}
+
+.slider .list {
+    float: left;
+    width: 20%;
+    display: table;
+    border-spacing: 0;
+}
+
+.slider i {
+    font-style: normal;
+    display: inline-block;
+}
+
+.slide-scroll .inner {
+    width: 500%;
+}
+
+.slider:not(.col-1):not(.vScroll) .item {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 7.5px;
+}
+
+.slider .item img {
+    width: 100%;
+}
+
+.slider .controls label {
+    cursor: pointer;
+    display: none;
+    text-indent: -999999px;
+    z-index: 100;
+    width: 26px;
+    position: absolute;
+    height: 36px;
+    line-height: 36px;
+    left: 0;
+    bottom: 46%;
+    top: 50%;
+    margin-top: -18px;
+}
+
+.slider .controls label:hover {
+    opacity: 0.8;
+}
+
+.slider .active {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+.slider .active label {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #37474f;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.slider .active label:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/*
+-----------------------------------------------------------------------------------
+Horizontal Scroll
+-----------------------------------------------------------------------------------*/
+.scroll {
+    margin-bottom: 15px;
+}
+
+.scroll:not(.col-1):not(.boxed) .pad {
+    margin-bottom: 35px;
+}
+
+.scroll.boxed .pad {
+    border: 1px solid #ddd;
+    border-top-width: 0;
+    padding: 15px 25px;
+}
+
+.scroll.boxed .pad:only-child {
+    border-top-width: 1px;
+}
+
+.scroll.boxed .slide-scroll {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.scroll.bordered-item .item a {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.scroll.boxed .active {
+    bottom: -6px;
+}
+
+.scroll .item a {
+    background-color: #fff;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.scroll .item h5 {
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.scroll .item p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #37474f;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.scroll .item .imgBox {
+    height: 120px;
+    font-size: 0;
+    position: relative;
+    display: block;
+}
+
+.scroll .item .imgBox img {
+    width: auto;
+}
+
+.slider .item span {
+    font-size: 11px;
+    padding: 6px 10px;
+    background-color: #29B8E3;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.slider .item span:hover {
+    background-color: #3B4547;
+}
+
+.scroll input:nth-child(1):checked ~ .slide-scroll .inner {
+    margin-left: 0;
+}
+
+.scroll input:nth-child(2):checked ~ .slide-scroll .inner {
+    margin-left: -100%;
+}
+
+.scroll input:nth-child(3):checked ~ .slide-scroll .inner {
+    margin-left: -200%;
+}
+
+.scroll input:nth-child(4):checked ~ .slide-scroll .inner {
+    margin-left: -300%;
+}
+
+.scroll .controls label {
+    width: 26px;
+    height: 40px;
+    line-height: normal;
+    left: 0;
+    margin-top: -20px;
+    bottom: 0;
+    top: 50%;
+    background: url(../images/arw-left.svg) center center no-repeat #eee;
+    border: 1px solid #ddd;
+}
+
+.scroll input:nth-child(1):checked ~ .controls label:nth-child(2),
+.scroll input:nth-child(2):checked ~ .controls label:nth-child(3),
+.scroll input:nth-child(3):checked ~ .controls label:nth-child(1) {
+    display: block;
+    left: auto;
+    right: 0;
+    background: url(../images/arw-right.svg) center center no-repeat #eee;
+}
+
+.scroll input:nth-child(1):checked ~ .controls label:nth-child(3),
+.scroll input:nth-child(2):checked ~ .controls label:nth-child(1),
+.scroll input:nth-child(3):checked ~ .controls label:nth-child(2) {
+    display: block;
+}
+
+.scroll.list-4 input:nth-child(1):checked ~ .controls label:nth-child(2),
+.scroll.list-4 input:nth-child(2):checked ~ .controls label:nth-child(3),
+.scroll.list-4 input:nth-child(3):checked ~ .controls label:nth-child(4),
+.scroll.list-4 input:nth-child(4):checked ~ .controls label:nth-child(1) {
+    display: block;
+    left: auto;
+    right: 0;
+    background: url(../images/arw-right.svg) center center no-repeat #eee;
+}
+
+.scroll.list-4 input:nth-child(1):checked ~ .controls label:nth-child(4),
+.scroll.list-4 input:nth-child(2):checked ~ .controls label:nth-child(1),
+.scroll.list-4 input:nth-child(3):checked ~ .controls label:nth-child(2),
+.scroll.list-4 input:nth-child(4):checked ~ .controls label:nth-child(3) {
+    display: block;
+}
+
+.scroll .active label {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 10px;
+    background-color: #37474f;
+}
+
+.scroll input:nth-child(1):checked ~ .active label:nth-child(1),
+.scroll input:nth-child(2):checked ~ .active label:nth-child(2),
+.scroll input:nth-child(3):checked ~ .active label:nth-child(3),
+.scroll input:nth-child(4):checked ~ .active label:nth-child(4) {
+    background-color: #46baa7;
+}
+
+.scroll.col-1 .active {
+    bottom: 12px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+Vertical Scroll
+-----------------------------------------------------------------------------------*/
+.vScroll .pad {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.vScroll .pad .inner {
+    width: auto;
+}
+
+.vScroll .overflow,
+.vScroll .list {
+    float: none;
+    width: auto;
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vScroll .item {
+    display: block;
+}
+
+.vScroll .item + .item {
+    margin-top: 15px;
+}
+
+.vScroll .item a {
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.vScroll .item h5 {
+    margin: 10px 0 0;
+    font-weight: normal;
+    height: 45px;
+    overflow: hidden;
+    font-size: 11px;
+}
+
+.vScroll .item p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #37474f;
+}
+
+.vScroll .item span {
+    display: none;
+}
+
+.vScroll .item div {
+    height: 96px;
+    font-size: 0;
+    position: relative;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.vScroll input:nth-child(1):checked ~ .slide-scroll .inner {
+    margin-top: 0;
+}
+
+.vScroll input:nth-child(2):checked ~ .slide-scroll .inner {
+    margin-top: -542px;
+}
+
+.vScroll input:nth-child(3):checked ~ .slide-scroll .inner {
+    margin-top: -1085px;
+}
+
+.vScroll .controls label {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    left: 50%;
+    margin: 0;
+    margin-left: -13px;
+    top: 15px;
+    bottom: auto;
+    background: url(../svg/arw-down.svg) center center no-repeat;
+    border: 1px solid #888;
+}
+
+.vScroll input:nth-child(1):checked ~ .controls label:nth-child(2),
+.vScroll input:nth-child(2):checked ~ .controls label:nth-child(3),
+.vScroll input:nth-child(3):checked ~ .controls label:nth-child(1) {
+    display: block;
+    background: url(../svg/arw-top.svg) center center no-repeat;
+}
+
+.vScroll input:nth-child(1):checked ~ .controls label:nth-child(3),
+.vScroll input:nth-child(2):checked ~ .controls label:nth-child(1),
+.vScroll input:nth-child(3):checked ~ .controls label:nth-child(2) {
+    display: block;
+    top: auto;
+    bottom: 14px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+Vertical Left Scroll
+-----------------------------------------------------------------------------------*/
+.vScroll.lBox .item div {
+    height: 160px;
+}
+
+.vScroll.lBox .item h5 {
+    font-size: 12px;
+}
+
+.vScroll.lBox .item span {
+    display: inline-block;
+}
+
+.vScroll.lBox .overflow,
+.vScroll.lBox .list {
+    height: 900px;
+}
+
+.vScroll.lBox input:nth-child(2):checked ~ .slide-scroll .inner {
+    margin-top: -900px;
+}
+
+.vScroll.lBox input:nth-child(3):checked ~ .slide-scroll .inner {
+    margin-top: -1800px;
+}
+
+@media only screen and (max-width:800px) {
+    .scroll:not(.col-1) label {
+        display: none !important;
+    }
+
+    .scroll.col-1 .controls {
+        display: none;
+    }
+
+    .scroll.col-1 .active {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .scroll.boxed .pad {
+        padding: 15px;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    .scroll.boxed .slide-scroll {
+        margin: 0;
+    }
+
+    .scroll:not(.col-1) {
+        margin-bottom: 0;
+    }
+
+    .scroll:not(.col-1) .slide-scroll .inner {
+        width: auto;
+        margin: 0 !important;
+    }
+
+    .scroll:not(.col-1) .list {
+        width: auto;
+        float: none;
+        display: block;
+    }
+
+    .scroll:not(.col-1) .item {
+        width: 33.3333%;
+        float: left;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .scroll .pad {
+        margin-bottom: 0;
+    }
+
+    .scroll .clone .item {
+        display: none;
+    }
+
+    .scroll.col-1 .item {
+        width: 100%;
+    }
+
+    .scroll.col-4 .item {
+        width: 25%;
+    }
+
+    .slider .item span {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:639px) and (min-width:381px) {
+    .scroll.col-4 .item {
+        width: 50%;
+    }
+
+    .scroll.bordered-item .item a {
+        padding: 10px;
+    }
+
+    .slider .item span {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .slider .item {
+        width: 100% !important;
+    }
+}
